@@ -1,7 +1,15 @@
-.bg-orange {
-    background-color: orange;
+h1 {
+    text-align: center;
+    font: 3rem;
 }
 
+.bg-orange {
+    background-color: #edaf5a;
+}
+
+.bg-gray {
+    background-color: #cbc1ae;
+}
 
 .navbar {
     display: flex;
@@ -12,7 +20,7 @@
 }
 
 .nav-menu {
-    display: flex;
+    display: none;
     justify-content: center; 
     align-items: center;
     width: 100%;
@@ -33,7 +41,7 @@
 }
 
 .hamburger-menu {
-    display: none;
+    display: block;
 }
 
 .hamburger-icon {
@@ -41,12 +49,44 @@
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+.player-name {
+    color:white;
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+}
+
+.quiz-question {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+@media (min-width: 768px) {
     .nav-menu {
-        display: none;
+        display: flex;
     }
     
     .hamburger-menu {
-        display: block;
+        display: none;
+    }
+}
+
+/* having cards have no caption at phone and tablet size, and then have caption at laptop or larger
+this query removes the artificial caption made at smaller sizes*/
+@media (min-width: 992px) {
+    .player-name {
+        display: none;
+    }
+
+    .quiz-question {
+        display: none;
+    }
+
+    .card {
+        background-image: url('../img/basketballcourt.jpeg');
+        background-size: cover;
+        background-position: center;
     }
 }
