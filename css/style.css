@@ -161,7 +161,7 @@ p {
     padding: 0 10px;
 }
 
-.card > img {
+.card > img, .section > img {
     min-width: 350px;
     min-height: 350px;
     max-width: 350px;
