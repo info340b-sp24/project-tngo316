@@ -82,7 +82,7 @@ main {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .nav-menu {
         display: none;
     }
