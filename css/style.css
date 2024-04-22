@@ -31,6 +31,9 @@ p {
     background-color: orange;
 }
 
+.bg-gray {
+    background-color: #cbc1ae;
+}
 .search {
     width: max-content;
     display: flex;
@@ -51,27 +54,24 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px; 
+    padding: 20px;
 }
 
-.card {
+.card-container > .card {
     margin: 10px;
-    background-image: url('../img/basketballcourt.jpeg');
-    background-size: cover;
-    background-position: center;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #edaf5a; 
+    background-color: #edaf5a;
     padding: 15px 20px;
 }
 
 .nav-menu {
-    display: flex;
-    justify-content: center; 
+    display: none;
+    justify-content: center;
     align-items: center;
     width: 100%;
     list-style: none;
@@ -91,7 +91,7 @@ p {
 }
 
 .hamburger-menu {
-    display: none;
+    display: block;
 }
 
 .hamburger-icon {
@@ -99,7 +99,7 @@ p {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .nav-menu {
         display: none;
     }
@@ -107,20 +107,20 @@ p {
     .hamburger-menu {
         display: block;
     }
-}
+} */
 
 @media (min-width: 768px) {
     .nav-menu {
         display: flex;
     }
-    
+
     .hamburger-menu {
         display: none;
     }
 }
 
 .player-name {
-    color:white;
+    color: white;
     text-align: center;
     position: relative;
     font-size: 2rem;
@@ -140,6 +140,12 @@ p {
     .quiz-question {
         display: none;
     }
+
+    .container > .card {
+        background-image: url('../img/basketballcourt.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 .flex-container {
@@ -155,10 +161,10 @@ p {
     padding: 0 10px;
 }
 
-img {
+.card > img {
     min-width: 350px;
     min-height: 350px;
     max-width: 350px;
     max-height: 350px;
     object-fit: cover;
-}   
+}
