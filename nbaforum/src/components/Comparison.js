@@ -1,4 +1,5 @@
 import React from 'react';
+import './playerstats.css';
 
 const Comparison = () => {
   const player1 = {
@@ -29,18 +30,18 @@ const Comparison = () => {
         <tbody>
           <tr>
             <td>Points</td>
-            <td>{player1.points}</td>
-            <td>{player2.points}</td>
+            <td style={{ backgroundColor: player1.points > player2.points ? 'green' : 'red' }}>{player1.points}</td>
+            <td style={{ backgroundColor: player2.points > player1.points ? 'green' : 'red' }}>{player2.points}</td>
           </tr>
           <tr>
             <td>Assists</td>
-            <td>{player1.assists}</td>
-            <td>{player2.assists}</td>
+            <td style={{ backgroundColor: player1.assists > player2.assists ? 'green' : 'red' }}>{player1.assists}</td>
+            <td style={{ backgroundColor: player2.assists > player1.assists ? 'green' : 'red' }}>{player2.assists}</td>
           </tr>
           <tr>
             <td>Rebounds</td>
-            <td>{player1.rebounds}</td>
-            <td>{player2.rebounds}</td>
+            <td style={{ backgroundColor: player1.rebounds > player2.rebounds ? 'green' : 'red' }}>{player1.rebounds}</td>
+            <td style={{ backgroundColor: player2.rebounds > player1.rebounds ? 'green' : 'red' }}>{player2.rebounds}</td>
           </tr>
         </tbody>
       </table>

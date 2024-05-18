@@ -1,32 +1,44 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Footer } from './Footer';
-import PlayerCard from './PlayerCard';
-import Comparison from './Comparison';
+import './playerstats.css';
+import Comparison from './Comparison'; // Import the Comparison component
 
-const PlayerStatsPage = () => {
-  const player1 = {
-    imgSrc: '../../public/img/lebronsunshinecover.jpg',
-    name: 'Player 1',
-  };
-
-  const player2 = {
-    imgSrc: '../../public/img/lebronsunshinecover.jpg',
-    name: 'Player 2',
-  };
-
+const PlayerStats = () => {
   return (
-    <div>
+    <header>
+      <h1>Compare Players</h1>
+      <p>Compare the stats of two NBA players side by side.</p>
       <main>
-        <h1>Compare Players</h1>
-        <p>Compare the stats of two NBA players side by side.</p>
-        <PlayerCard {...player1} />
-        <PlayerCard {...player2} />
-        <Comparison />
+        <div className="flex-container">
+          <section>
+            <div className="card-container">
+              <div className="section">
+                <form>
+                  <div className="search">
+                    <input className="search-input" type="text" placeholder="Search for a player..." />
+                  </div>
+                </form>
+                <img src="img/lebronsunshinecover.jpg" alt="Lebron James You Are My Sunshine Meme" />
+                <p>Lebron James - Los Angeles Lakers </p>
+              </div>
+              <div className="section comparison-section">
+                <h3 style={{textAlign: "center"}}>Player Stats Compared (2024)</h3>
+                <Comparison />
+              </div>
+              <div className="section">
+                <form>
+                  <div className="search">
+                    <input className="search-input" type="text" placeholder="Search for a player..." />
+                  </div>
+                </form>
+                <img src="img/oklahomacitythunder/chetholmgren.png" alt="Oklahoma City Thunder player Chet Holmgren" />
+                <p>Chet Holmgren - Oklahoma City Thunder</p>
+              </div>
+            </div>
+          </section>
+        </div>
       </main>
- 
-    </div>
+    </header>
   );
-}
+};
 
-export default PlayerStatsPage;
+export default PlayerStats;
