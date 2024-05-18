@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import '../index.css';
 
 import {Header} from './Header.js';
 import PlayerList from './playerlist.js';
