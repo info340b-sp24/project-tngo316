@@ -1,0 +1,48 @@
+.bg-gray {
+    background-color: #cbc1ae;
+}
+
+.player-name {
+    color:white;
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+}
+
+.quiz-question {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+
+}
+.quiz-text {
+    color: #916c0f;
+}
+
+@media (min-width: 768px) {
+    .nav-menu {
+        display: flex;
+    }
+    
+    .hamburger-menu {
+        display: none;
+    }
+}
+
+/* having cards have no caption at phone and tablet size, and then have caption at laptop or larger
+this query removes the artificial caption made at smaller sizes*/
+@media (min-width: 992px) {
+    .player-name {
+        display: none;
+    }
+
+    .quiz-question {
+        display: none;
+    }
+
+    #quiz-card {
+        background-image: url('../../public/img/basketballcourt.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './QuizPage.css';
 
 export function QuizCard(props) {
     const playerArray = props.players;
@@ -9,7 +10,7 @@ export function QuizCard(props) {
 
     return (
         <div className="container">
-            <div className="card bg-gray mt-3">
+            <div className="card bg-gray mt-3" id='quiz-card'>
                 <div className="carousel slide mt-1">
                     <div className="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active"
@@ -25,8 +26,8 @@ export function QuizCard(props) {
                             <p className="quiz-question">What team does he play for?</p>
                             <img src={p1.imgSrc} className="d-block h-100" alt="Bogdan Bogdanovic" />
                             <div className="carousel-caption d-none d-lg-block">
-                                <h2>{p1.name}</h2>
-                                <p>What team does he play for?</p>
+                                <h2 className="quiz-text">{p1.name}</h2>
+                                <p className="quiz-text">What team does he play for?</p>
                             </div>
                         </div>
                         <div className="carousel-item">
