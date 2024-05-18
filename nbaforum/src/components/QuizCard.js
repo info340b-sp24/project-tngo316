@@ -23,7 +23,7 @@ export function QuizCard(props) {
                         <div className="carousel-item active">
                             <h2 className="player-name">{p1.name}</h2>
                             <p className="quiz-question">What team does he play for?</p>
-                            <img src={p1.imgSrc} class="d-block h-100" alt="Bogdan Bogdanovic" />
+                            <img src={p1.imgSrc} className="d-block h-100" alt="Bogdan Bogdanovic" />
                             <div className="carousel-caption d-none d-lg-block">
                                 <h2>{p1.name}</h2>
                                 <p>What team does he play for?</p>
@@ -32,8 +32,8 @@ export function QuizCard(props) {
                         <div className="carousel-item">
                             <h2 className="player-name">{p2.name}</h2>
                             <p className="quiz-question">What team does he play for?</p>
-                            <img src={p2.imgSrc} class="d-block h-100" alt="Lebron James" />
-                            <div class="carousel-caption d-none d-lg-block">
+                            <img src={p2.imgSrc} className="d-block h-100" alt="Lebron James" />
+                            <div className="carousel-caption d-none d-lg-block">
                                 <h2>{p2.imgSrc}</h2>
                                 <p>What team does he play for?</p>
                             </div>
@@ -41,8 +41,8 @@ export function QuizCard(props) {
                         <div className="carousel-item">
                             <h2 className="player-name">{p3.name}</h2>
                             <p className="quiz-question">What team does he play for?</p>
-                            <img src={p3.imgSrc} class="d-block h-100" alt="Kevin Durant" />
-                            <div class="carousel-caption d-none d-lg-block">
+                            <img src={p3.imgSrc} className="d-block h-100" alt="Kevin Durant" />
+                            <div className="carousel-caption d-none d-lg-block">
                                 <h2>{p3.name}</h2>
                                 <p>What team does he play for?</p>
                             </div>

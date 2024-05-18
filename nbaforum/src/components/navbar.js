@@ -1,17 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
+import './navbar.css';
 
-const Navbar = () => {
-  return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">NBA StatsForum</Link>
-      <div className="navbar-nav">
-        <Link className="nav-item nav-link" to="/">Home</Link>
-        <Link className="nav-item nav-link" to="/players">Player Stats</Link>
-        <Link className="nav-item nav-link" to="/quiz">Quiz</Link>
-      </div>
-    </nav>
-  );
-};
-
-export default Navbar;
+export default function Navbar() {
+    return (
+        <nav className='nav'>
+            <Link to="/" className='site-title'>
+                Homepage
+            </Link>
+            <ul>
+                <li>
+                    <Link to="/quiz">Quiz</Link>
+                </li>
+                <li>
+                    <Link to="/playerstats">Player Stats</Link>
+                </li>
+            </ul>
+            <div/>
+        </nav>
+    );
+}
