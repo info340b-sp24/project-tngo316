@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PlayerCard from './PlayerCard';
+import Filter from './Filter';
 
 export const players = [
     // Atlanta Hawks
@@ -292,12 +293,32 @@ export const players = [
 ];
 
 const PlayerList = () => {
+    const [selectedTeam, setSelectedTeam] = useState('');
+    
+    // Extract unique team names for the filter dropdown
+    const teams = [...new Set(players.map(player => player.team))];
+
+    // Filter players based on selected team
+    const filteredPlayers = selectedTeam
+        ? players.filter(player => player.team === selectedTeam)
+        : players;
+
     return (
         <section className="players">
             <h2>NBA Players</h2>
+            <Filter
+                teams={teams}
+                selectedTeam={selectedTeam}
+                onTeamChange={setSelectedTeam}
+            />
             <div className="card-container">
-                {players.map(player => (
-                    <PlayerCard key={player.id} imgSrc={player.imgSrc} name={player.name}/>
+                {filteredPlayers.map(player => (
+                    <PlayerCard
+                        key={player.id}
+                        name={player.name}
+                        team={player.team}
+                        imgSrc={player.imgSrc}
+                    />
                 ))}
             </div>
         </section>

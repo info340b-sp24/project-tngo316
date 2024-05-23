@@ -1,7 +1,7 @@
 import React from 'react';
 import '../index.css';
 
-const PlayerCard = ({ imgSrc, name }) => {
+const PlayerCard = ({ name, team, imgSrc }) => {
   return (
     <div className="card">
       <img src={imgSrc} alt={name} />
