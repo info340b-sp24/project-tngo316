@@ -124,32 +124,32 @@ export const players = [
     {id: 65, name: 'Rui Hachimura', team: 'LA Lakers', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrcimgSrc: 'img/losangeleslakers/ruihachimura.png'},
 
     // Memphis Grizzlies
-    {id: 66, name: 'Desmond Bane', team: 'Memphis Grizzlies', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrcimgSrc: 'img/memphisgrizzlies/desmondbane.png'},
-    {id: 67, name: 'Ja Morant', team: 'Memphis Grizzlies', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/memphisgrizzlies/jamorant.png'},
-    {id: 68, name: 'Jaren Jackson Jr.', team: 'Memphis Grizzlies', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/memphisgrizzlies/jarenjacksonjr.png'},
-    {id: 69, name: 'Marcus Smart', team: 'Memphis Grizzlies', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/memphisgrizzlies/marcussmart.png'},
-    {id: 70, name: 'Vince Williams Jr.', team: 'Memphis Grizzlies', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/memphisgrizzlies/vincewilliamsjr.png'},
+    {id: 66, name: 'Desmond Bane', team: 'Memphis Grizzlies', position: 'SF', height: '6\'5"' , weight: "215 lbs", imgSrcimgSrc: 'img/memphisgrizzlies/desmondbane.png'},
+    {id: 67, name: 'Ja Morant', team: 'Memphis Grizzlies', position: 'PG', height: '6\'2"' , weight: "174 lbs", imgSrc: 'img/memphisgrizzlies/jamorant.png'},
+    {id: 68, name: 'Jaren Jackson Jr.', team: 'Memphis Grizzlies', position: 'C', height: '6\'10"' , weight: "242 lbs", imgSrc: 'img/memphisgrizzlies/jarenjacksonjr.png'},
+    {id: 69, name: 'Marcus Smart', team: 'Memphis Grizzlies', position: 'SG', height: '6\'3"' , weight: "220 lbs", imgSrc: 'img/memphisgrizzlies/marcussmart.png'},
+    {id: 70, name: 'Vince Williams Jr.', team: 'Memphis Grizzlies', position: 'PF', height: '6\'4"' , weight: "205 lbs", imgSrc: 'img/memphisgrizzlies/vincewilliamsjr.png'},
 
     // Miami Heat
-    {id: 71, name: 'Bam Adebayo', team: 'Miami Heat', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/miamiheat/bamadebayo.png'},
-    {id: 72, name: 'Jimmy Butler', team: 'Miami Heat', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/miamiheat/jimmybutler.png'},
-    {id: 73, name: 'Kyle Lowry', team: 'Miami Heat', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/miamiheat/kylelowry.png'},
-    {id: 74, name: 'Kevin Love', team: 'Miami Heat', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/miamiheat/love.png'},
-    {id: 75, name: 'Tyler Herro', team: 'Miami Heat', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/miamiheat/tylerherro.png'},
+    {id: 71, name: 'Bam Adebayo', team: 'Miami Heat', position: 'C', height: '6\'9"' , weight: "255 lbs", imgSrc: 'img/miamiheat/bamadebayo.png'},
+    {id: 72, name: 'Jimmy Butler', team: 'Miami Heat', position: 'SF', height: '6\'7"' , weight: "230 lbs", imgSrc: 'img/miamiheat/jimmybutler.png'},
+    {id: 73, name: 'Kyle Lowry', team: 'Miami Heat', position: 'PG', height: '6\'0"' , weight: "196 lbs", imgSrc: 'img/miamiheat/kylelowry.png'},
+    {id: 74, name: 'Kevin Love', team: 'Miami Heat', position: 'PF', height: '6\'8"' , weight: "251 lbs", imgSrc: 'img/miamiheat/love.png'},
+    {id: 75, name: 'Tyler Herro', team: 'Miami Heat', position: 'SG', height: '6\'5"' , weight: "195 lbs", imgSrc: 'img/miamiheat/tylerherro.png'},
 
     // Milwaukee Bucks
-    {id: 76, name: 'Bobby Portis', team: 'Milwaukee Bucks', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/milwaukeebucks/bobbyportis.png'},
-    {id: 77, name: 'Brook Lopez', team: 'Milwaukee Bucks', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/milwaukeebucks/brooklopez.png'},
-    {id: 78, name: 'Damian Lillard', team: 'Milwaukee Bucks', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/milwaukeebucks/damianlillard.png'},
+    {id: 76, name: 'Bobby Portis', team: 'Milwaukee Bucks', position: 'SG', height: '6\'20"' , weight: "250 lbs", imgSrc: 'img/milwaukeebucks/bobbyportis.png'},
+    {id: 77, name: 'Brook Lopez', team: 'Milwaukee Bucks', position: 'C', height: '7\'1"' , weight: "282 lbs", imgSrc: 'img/milwaukeebucks/brooklopez.png'},
+    {id: 78, name: 'Damian Lillard', team: 'Milwaukee Bucks', position: 'PG', height: '6\'2"' , weight: "195 lbs", imgSrc: 'img/milwaukeebucks/damianlillard.png'},
     {
         id: 79,
         name: 'Giannis Antetokounmpo',
         team: 'Milwaukee Bucks',
         position: 'PF',
-        height: '6\'8"' , weight: "225 lbs",
+        height: '6\'11"' , weight: "243 lbs",
         imgSrc: 'img/milwaukeebucks/giannisantetokounmpo.png'
     },
-    {id: 80, name: 'Khris Middleton', team: 'Milwaukee Bucks', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/milwaukeebucks/khrismiddleton.png'},
+    {id: 80, name: 'Khris Middleton', team: 'Milwaukee Bucks', position: 'SF', height: '6\'7"' , weight: "222 lbs", imgSrc: 'img/milwaukeebucks/khrismiddleton.png'},
 
     // Minnesota Timberwolves
     {
@@ -157,7 +157,7 @@ export const players = [
         name: 'Anthony Edwards',
         team: 'Minnesota Timberwolves',
         position: 'SG',
-        height: '6\'8"' , weight: "225 lbs",
+        height: '6\'4"' , weight: "225 lbs",
         imgSrc: 'img/minnesotatimberwolves/anthonyedwards.png'
     },
     {
@@ -165,7 +165,7 @@ export const players = [
         name: 'Karl-Anthony Towns',
         team: 'Minnesota Timberwolves',
         position: 'PF',
-        height: '6\'8"' , weight: "225 lbs",
+        height: '7\'0"' , weight: "248 lbs",
         imgSrc: 'img/minnesotatimberwolves/karl-anthonytowns.png'
     },
     {
@@ -173,22 +173,22 @@ export const players = [
         name: 'Kyle Anderson',
         team: 'Minnesota Timberwolves',
         position: 'SF',
-        height: '6\'8"' , weight: "225 lbs",
+        height: '6\'9"' , weight: "230 lbs",
         imgSrc: 'img/minnesotatimberwolves/kyleanderson.png'
     },
-    {id: 84, name: 'Mike Conley', team: 'Minnesota Timberwolves', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/minnesotatimberwolves/mikeconley.png'},
-    {id: 85, name: 'Rudy Gobert', team: 'Minnesota Timberwolves', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/minnesotatimberwolves/rudygobert.png'},
+    {id: 84, name: 'Mike Conley', team: 'Minnesota Timberwolves', position: 'PG', height: '6\'0"' , weight: "175 lbs", imgSrc: 'img/minnesotatimberwolves/mikeconley.png'},
+    {id: 85, name: 'Rudy Gobert', team: 'Minnesota Timberwolves', position: 'C', height: '7\'1"' , weight: "258 lbs", imgSrc: 'img/minnesotatimberwolves/rudygobert.png'},
 
     // New Orleans Pelicans
-    {id: 86, name: 'Brandon Ingram', team: 'New Orleans Pelicans', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/neworleanspelicans/brandoningram.png'},
-    {id: 87, name: 'CJ McCollum', team: 'New Orleans Pelicans', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/neworleanspelicans/cjmccollum.png'},
-    {id: 88, name: 'Herbert Jones', team: 'New Orleans Pelicans', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/neworleanspelicans/herbertjones.png'},
+    {id: 86, name: 'Brandon Ingram', team: 'New Orleans Pelicans', position: 'SG', height: '6\'8"' , weight: "190 lbs", imgSrc: 'img/neworleanspelicans/brandoningram.png'},
+    {id: 87, name: 'CJ McCollum', team: 'New Orleans Pelicans', position: 'PG', height: '6\'3"' , weight: "190 lbs", imgSrc: 'img/neworleanspelicans/cjmccollum.png'},
+    {id: 88, name: 'Herbert Jones', team: 'New Orleans Pelicans', position: 'SF', height: '6\'7"' , weight: "206 lbs", imgSrc: 'img/neworleanspelicans/herbertjones.png'},
     {
         id: 89,
         name: 'Jonas Valanciunas',
         team: 'New Orleans Pelicans',
         position: 'C',
-        height: '6\'8"' , weight: "225 lbs",
+        height: '6\'11"' , weight: "265 lbs",
         imgSrc: 'img/neworleanspelicans/jonasvalanciunas.png'
     },
     {
@@ -196,65 +196,65 @@ export const players = [
         name: 'Zion Williamson',
         team: 'New Orleans Pelicans',
         position: 'PF',
-        height: '6\'8"' , weight: "225 lbs",
+        height: '6\'6"' , weight: "284lbs",
         imgSrc: 'img/neworleanspelicans/zionwilliamson.png'
     },
 
     // New York Knicks
-    {id: 91, name: 'Immanuel Quickley', team: 'New York Knicks', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/newyorkknicks/immanuelquickley.png'},
-    {id: 92, name: 'Jalen Brunson', team: 'New York Knicks', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/newyorkknicks/jalenbrunson.png'},
-    {id: 93, name: 'Julius Randle', team: 'New York Knicks', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/newyorkknicks/juliusrandle.png'},
-    {id: 94, name: 'Mitchell Robinson', team: 'New York Knicks', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/newyorkknicks/mitchellrobinson.png'},
-    {id: 96, name: 'RJ Barrett', team: 'New York Knicks', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/newyorkknicks/rjbarrett.png'},
+    {id: 91, name: 'Immanuel Quickley', team: 'New York Knicks', position: 'SG', height: '6\'2"' , weight: "190 lbs", imgSrc: 'img/newyorkknicks/immanuelquickley.png'},
+    {id: 92, name: 'Jalen Brunson', team: 'New York Knicks', position: 'PG', height: '6\'2"' , weight: "190 lbs", imgSrc: 'img/newyorkknicks/jalenbrunson.png'},
+    {id: 93, name: 'Julius Randle', team: 'New York Knicks', position: 'PF', height: '6\'8"' , weight: "250 lbs", imgSrc: 'img/newyorkknicks/juliusrandle.png'},
+    {id: 94, name: 'Mitchell Robinson', team: 'New York Knicks', position: 'C', height: '7\'0"' , weight: "240 lbs", imgSrc: 'img/newyorkknicks/mitchellrobinson.png'},
+    {id: 96, name: 'RJ Barrett', team: 'New York Knicks', position: 'SF', height: '6\'6"' , weight: "214 lbs", imgSrc: 'img/newyorkknicks/rjbarrett.png'},
 
     // Oklahoma City Thunder
-    {id: 196, name: 'Chet Holmgren', team: 'Oklahoma City Thunder', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/oklahomacitythunder/chetholmgren.png'},
+    {id: 196, name: 'Chet Holmgren', team: 'Oklahoma City Thunder', position: 'C', height: '7\'1"' , weight: "208 lbs", imgSrc: 'img/oklahomacitythunder/chetholmgren.png'},
     {
         id: 97,
         name: 'Jalen Williams',
         team: 'Oklahoma City Thunder',
         position: 'PF',
-        height: '6\'8"' , weight: "225 lbs",
+        height: '6\'5"' , weight: "211 lbs",
         imgSrc: 'img/oklahomacitythunder/jalenwilliams.png'
     },
-    {id: 98, name: 'Josh Giddey', team: 'Oklahoma City Thunder', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/oklahomacitythunder/joshgiddey.png'},
-    {id: 99, name: 'Luguentz Dort', team: 'Oklahoma City Thunder', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/oklahomacitythunder/luguentzdort.png'},
+    {id: 98, name: 'Josh Giddey', team: 'Oklahoma City Thunder', position: 'SG', height: '6\'8"' , weight: "216 lbs", imgSrc: 'img/oklahomacitythunder/joshgiddey.png'},
+    {id: 99, name: 'Luguentz Dort', team: 'Oklahoma City Thunder', position: 'SF', height: '6\'4"' , weight: "220 lbs", imgSrc: 'img/oklahomacitythunder/luguentzdort.png'},
     {
         id: 100,
         name: 'Shai Gilgeous-Alexander',
         team: 'Oklahoma City Thunder',
         position: 'PG',
-        height: '6\'8"' , weight: "225 lbs",
+        height: '6\'6"' , weight: "195 lbs",
         imgSrc: 'img/oklahomacitythunder/shaigilgeous-alexander.png'
     },
 
     // Orlando Magic
-    {id: 101, name: 'Cole Anthony', team: 'Orlando Magic', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/orlandomagic/coleanthony.png'},
-    {id: 102, name: 'Franz Wagner', team: 'Orlando Magic', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/orlandomagic/franzwagner.png'},
-    {id: 103, name: 'Markelle Fultz', team: 'Orlando Magic', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/orlandomagic/markellefultz.png'},
-    {id: 104, name: 'Paolo Banchero', team: 'Orlando Magic', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/orlandomagic/paolobanchero.png'},
-    {id: 105, name: 'Wendell Carter Jr.', team: 'Orlando Magic', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/orlandomagic/wendellcarterjr.png'},
+    {id: 101, name: 'Cole Anthony', team: 'Orlando Magic', position: 'SG', height: '6\'2"' , weight: "185 lbs", imgSrc: 'img/orlandomagic/coleanthony.png'},
+    {id: 102, name: 'Franz Wagner', team: 'Orlando Magic', position: 'SF', height: '6\'10"' , weight: "220 lbs", imgSrc: 'img/orlandomagic/franzwagner.png'},
+    {id: 103, name: 'Markelle Fultz', team: 'Orlando Magic', position: 'PG', height: '6\'4"' , weight: "209 lbs", imgSrc: 'img/orlandomagic/markellefultz.png'},
+    {id: 104, name: 'Paolo Banchero', team: 'Orlando Magic', position: 'PF', height: '6\'10"' , weight: "250 lbs", imgSrc: 'img/orlandomagic/paolobanchero.png'},
+    {id: 105, name: 'Wendell Carter Jr.', team: 'Orlando Magic', position: 'C', height: '6\'10"' , weight: "270 lbs", imgSrc: 'img/orlandomagic/wendellcarterjr.png'},
 
     // Philadelphia 76ers
     {
         id: 106,
-        name: 'D\'Anthony Melton',
+        name: 'De\'Anthony Melton',
         team: 'Philadelphia 76ers',
         position: 'SG', 
-        height: '6\'8"' , weight: "225 lbs",
+        height: '6\'3"' , weight: "200 lbs",
         imgSrc: 'img/philadelphia76ers/d\'anthonymelton.png'
     },
-    {id: 107, name: 'Joel Embiid', team: 'Philadelphia 76ers', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/philadelphia76ers/joelembiid.png'},
-    {id: 108, name: 'Kelly Oubre Jr.', team: 'Philadelphia 76ers', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/philadelphia76ers/kellyoubrejr.png'},
-    {id: 109, name: 'Tyrese Maxey', team: 'Philadelphia 76ers', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/philadelphia76ers/tyresemaxey.png'},
-    {id: 110, name: 'Tobias Harris', team: 'Philadelphia 76ers', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/philadelphia76ers/tobiasharris.png'},
+    {id: 107, name: 'Joel Embiid', team: 'Philadelphia 76ers', position: 'C', height: '7\'0"' , weight: "280 lbs", imgSrc: 'img/philadelphia76ers/joelembiid.png'},
+    {id: 108, name: 'Kelly Oubre Jr.', team: 'Philadelphia 76ers', position: 'SF', height: '6\'7"' , weight: "203 lbs", imgSrc: 'img/philadelphia76ers/kellyoubrejr.png'},
+    {id: 109, name: 'Tyrese Maxey', team: 'Philadelphia 76ers', position: 'PG', height: '6\'2"' , weight: "200 lbs", imgSrc: 'img/philadelphia76ers/tyresemaxey.png'},
+    {id: 110, name: 'Tobias Harris', team: 'Philadelphia 76ers', position: 'PF', height: '6\'8"' , weight: "226 lbs", imgSrc: 'img/philadelphia76ers/tobiasharris.png'},
 
     // Phoenix Suns
-    {id: 111, name: 'Bradley Beal', team: 'Phoenix Suns', position: '', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/phoenixsuns/bradleybeal.png'},
-    {id: 112, name: 'Devin Booker', team: 'Phoenix Suns', position: '', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/phoenixsuns/devinbooker.png'},
-    {id: 113, name: 'Kevin Durant', team: 'Phoenix Suns', position: '', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/phoenixsuns/kevindurant.png'},
-    {id: 114, name: 'Yuta Watanabe', team: 'Phoenix Suns', position: '', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/phoenixsuns/yutawatanabe.png'},
-    {id: 115, name: 'Deandre Ayton', team: 'Phoenix Suns', position: '', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/phoenixsuns/deandreayton.png'},
+    {id: 111, name: 'Bradley Beal', team: 'Phoenix Suns', position: '', height: '6\'4"' , weight: "207 lbs", imgSrc: 'img/phoenixsuns/bradleybeal.png'},
+    {id: 112, name: 'Devin Booker', team: 'Phoenix Suns', position: '', height: '6\'6"' , weight: "206 lbs", imgSrc: 'img/phoenixsuns/devinbooker.png'},
+    {id: 113, name: 'Kevin Durant', team: 'Phoenix Suns', position: '', height: '6\'11"' , weight: "240 lbs", imgSrc: 'img/phoenixsuns/kevindurant.png'},
+    {id: 114, name: 'Yuta Watanabe', team: 'Phoenix Suns', position: '', height: '6\'9"' , weight: "215 lbs", imgSrc: 'img/phoenixsuns/yutawatanabe.png'},
+    {id: 115, name: 'Deandre Ayton', team: 'Phoenix Suns', position: '', height: '7\'0"' , weight: "247 lbs", imgSrc: 'img/phoenixsuns/deandreayton.png'},
 
     // Portland Trail Blazers
     {
@@ -262,16 +262,16 @@ export const players = [
         name: 'Anfernee Simons',
         team: 'Portland Trailblazers',
         position: 'SG',
-        height: '6\'8"' , weight: "225 lbs",
+        height: '6\'3"' , weight: "193 lbs",
         imgSrc: 'img/portlandtrailblazers/anferneesimons.png'
     },
-    {id: 117, name: 'Jerami Grant', team: 'Portland Trailblazers', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/portlandtrailblazers/jeramigrant.png'},
+    {id: 117, name: 'Jerami Grant', team: 'Portland Trailblazers', position: 'C', height: '6\'7"' , weight: "210 lbs", imgSrc: 'img/portlandtrailblazers/jeramigrant.png'},
     {
         id: 118,
         name: 'Scoot Henderson',
         team: 'Portland Trailblazers',
         position: 'PG',
-        height: '6\'8"' , weight: "225 lbs",
+        height: '6\'3"' , weight: "203 lbs",
         imgSrc: 'img/portlandtrailblazers/loothenderson.png'
     },
     {
@@ -279,7 +279,7 @@ export const players = [
         name: 'Matisse Thybulle',
         team: 'Portland Trailblazers',
         position: 'PF',
-        height: '6\'8"' , weight: "225 lbs",
+        height: '6\'5"' , weight: "201 lbs",
         imgSrc: 'img/portlandtrailblazers/matissethybulle.png'
     },
     {
@@ -287,14 +287,14 @@ export const players = [
         name: 'Shaedon Sharpe',
         team: 'Portland Trailblazers',
         position: 'SF',
-        height: '6\'8"' , weight: "225 lbs",
+        height: '6\'5"' , weight: "205 lbs",
         imgSrc: 'img/portlandtrailblazers/shaedonsharpe.png'
     },
 
     // Sacramento Kings
     {id: 121, name: 'DeAaron Fox', team: 'Sacramento Kings', position: 'PG', height: '6\'3"', weight: "185 lbs", imgSrc: 'img/sacramentokings/de\'aaronfox.png'},
     {id: 122, name: 'Domantas Sabonis', team: 'Sacramento Kings', position: 'C', height: '6\'10"', weight: "240 lbs", imgSrc: 'img/sacramentokings/domantassabonis.png'},
-    {id: 123, name: 'Harrison Barnes', team: 'Sacramento Kings', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/sacramentokings/harrisonbarnes.png'},
+    {id: 123, name: 'Harrison Barnes', team: 'Sacramento Kings', position: 'SF', height: '6\'8"' , weight: "228 lbs", imgSrc: 'img/sacramentokings/harrisonbarnes.png'},
     {id: 124, name: 'Keegan Murray', team: 'Sacramento Kings', position: 'PF', height: '6\'8"' , weight: "225 lbs",  imgSrc: 'img/sacramentokings/keeganmurray.png'},
     {id: 125, name: 'Malik Monk', team: 'Sacramento Kings', position: 'SG', height: '6\'3"' , weight: "200 lbs", imgSrc: 'img/sacramentokings/malikmonk.png'},
 
