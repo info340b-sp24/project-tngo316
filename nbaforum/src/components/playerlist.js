@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import PlayerCard from './PlayerCard';
 import Filter from './Filter';
-import './playerlist.css';
-
+import '../index.css'
 export const players = [
     // Atlanta Hawks
     {id: 1, name: 'Bogdan Bogdanovic', team: 'Atlanta Hawks', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/atlantahawks/bogdanbogdanovic.png'},
@@ -90,7 +89,7 @@ export const players = [
         id: 45,
         name: 'Trayce Jackson Davis',
         team: 'Golden State Warriors',
-        position: 'C', 
+        position: 'C',
         height: '6\'8"' , weight: "225 lbs",
         imgSrc: 'img/goldenstatewarriors/traycejacksondavis.png'
     },
@@ -240,7 +239,7 @@ export const players = [
         id: 106,
         name: 'De\'Anthony Melton',
         team: 'Philadelphia 76ers',
-        position: 'SG', 
+        position: 'SG',
         height: '6\'3"' , weight: "200 lbs",
         imgSrc: 'img/philadelphia76ers/d\'anthonymelton.png'
     },

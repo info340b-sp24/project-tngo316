@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './QuizPage.css';
+import '../index.css'
 
 export function QuizCard(props) {
     const playerArray = props.players;
